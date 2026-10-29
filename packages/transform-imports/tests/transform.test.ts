@@ -7,17 +7,16 @@ import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 describe('transform-imports', () => {
-  it.each(['js', 'jsx', 'ts', 'tsx'])(
-    'transforms imports in query-suffixed .%s modules',
-    async (extension) => {
+  for (const ext of ['js', 'jsx', 'ts', 'tsx']) {
+    it(`transforms imports in query-suffixed .${ext} modules`, async () => {
       const result = await transform(
         `import { IconCheck } from 'icons'; console.log(IconCheck)`,
         { icons: { transform: 'icons/{{member}}.js' } },
-        `virtual:entry.${extension}?tsr-split=component`,
+        `virtual:entry.${ext}?tsr-split=component`,
       )
       expect(result).toContain('icons/IconCheck.js')
-    },
-  )
+    })
+  }
 
   it('throws on namespace import when preventFullImport is true', async () => {
     const input = `import * as Bootstrap from 'react-bootstrap'\nconsole.log(Bootstrap)`
