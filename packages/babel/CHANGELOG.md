@@ -1,3 +1,25 @@
+## [0.3.0](https://github.com/rolldown/plugins/compare/plugin-babel%400.2.4...plugin-babel%400.3.0) (2026-10-29)
+### Features
+
+* **babel:** add `parallel` option to transform in worker threads ([#139](https://github.com/rolldown/plugins/issues/139)) ([62b6144](https://github.com/rolldown/plugins/commit/62b6144843dcb7e2e46051f6f524830be258c250)), references [rollup/plugins#1956](https://github.com/rollup/plugins/issues/1956)
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#133](https://github.com/rolldown/plugins/issues/133)) ([b8560ba](https://github.com/rolldown/plugins/commit/b8560baef4c6f1c5dfb58d72c2d832d531b2ca91)), references [#8203](https://github.com/rolldown/plugins/issues/8203) [#8203](https://github.com/rolldown/plugins/issues/8203)
+
+### Miscellaneous Chores
+
+* **deps:** update all non-major dependencies ([#137](https://github.com/rolldown/plugins/issues/137)) ([d427660](https://github.com/rolldown/plugins/commit/d427660aa92889a46ac751e870fd823616d9e872)), references [#8203](https://github.com/rolldown/plugins/issues/8203) [#8203](https://github.com/rolldown/plugins/issues/8203)
+* **deps:** update all non-major dependencies ([#140](https://github.com/rolldown/plugins/issues/140)) ([2fe2645](https://github.com/rolldown/plugins/commit/2fe264591df0c66a4663fcac8015a77eed2f910c))
+* **deps:** update all non-major dependencies ([#142](https://github.com/rolldown/plugins/issues/142)) ([a0e8ff7](https://github.com/rolldown/plugins/commit/a0e8ff7595616d1b5b7ea9174da2f628054cba79)), references [#8203](https://github.com/rolldown/plugins/issues/8203)
+* **deps:** update all non-major dependencies ([#145](https://github.com/rolldown/plugins/issues/145)) ([a4444dc](https://github.com/rolldown/plugins/commit/a4444dceaaa3dde77e6787bb0acce936a249756f)), references [#8203](https://github.com/rolldown/plugins/issues/8203) [#x](https://github.com/rolldown/plugins/issues/x) [#8203](https://github.com/rolldown/plugins/issues/8203) [#8203](https://github.com/rolldown/plugins/issues/8203) [#8203](https://github.com/rolldown/plugins/issues/8203) [docs/api.md#optionsextendenv](https://github.com/docs/api.md/issues/optionsextendenv) [docs/api.md#optionsenv](https://github.com/docs/api.md/issues/optionsenv) [docs/api.md#optionsstdio](https://github.com/docs/api.md/issues/optionsstdio) [docs/api.md#optionsmaxbuffer](https://github.com/docs/api.md/issues/optionsmaxbuffer) [#8203](https://github.com/rolldown/plugins/issues/8203)
+* **deps:** update all non-major dependencies ([#149](https://github.com/rolldown/plugins/issues/149)) ([bcd3e00](https://github.com/rolldown/plugins/commit/bcd3e00e2ab854d3d71d06aed34c5c648495b497)), references [#8203](https://github.com/rolldown/plugins/issues/8203) [#8203](https://github.com/rolldown/plugins/issues/8203) [docs/api.md#optionsmaxbuffer](https://github.com/docs/api.md/issues/optionsmaxbuffer) [docs/api.md#optionskillsignal](https://github.com/docs/api.md/issues/optionskillsignal)
+* **deps:** update rolldown-related dependencies ([#150](https://github.com/rolldown/plugins/issues/150)) ([277a919](https://github.com/rolldown/plugins/commit/277a919f5e83c0f77a401ccc3558a070d0fde716))
+
+### Tests
+
+* exclude benchmarks from package Vitest projects ([#153](https://github.com/rolldown/plugins/issues/153)) ([9d071ad](https://github.com/rolldown/plugins/commit/9d071adb28551ecd45d61152561836ceade8d804))
+
 ## <small>[0.2.4](https://github.com/rolldown/plugins/compare/plugin-babel%400.2.3...plugin-babel%400.2.4) (2026-09-07)</small>
 ### Bug Fixes
 
