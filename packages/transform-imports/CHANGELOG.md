@@ -1,3 +1,21 @@
+## <small>[0.1.3](https://github.com/rolldown/plugins/compare/plugin-transform-imports%400.1.2...plugin-transform-imports%400.1.3) (2026-10-29)</small>
+### Bug Fixes
+
+* **transform-imports:** handle query-suffixed module ids ([#152](https://github.com/rolldown/plugins/issues/152)) ([878652d](https://github.com/rolldown/plugins/commit/878652d02b93e3db95c22ddf01c4f885face7448)), closes [#151](https://github.com/rolldown/plugins/issues/151)
+
+### Miscellaneous Chores
+
+* **deps:** update all non-major dependencies ([#137](https://github.com/rolldown/plugins/issues/137)) ([d427660](https://github.com/rolldown/plugins/commit/d427660aa92889a46ac751e870fd823616d9e872)), references [#8203](https://github.com/rolldown/plugins/issues/8203) [#8203](https://github.com/rolldown/plugins/issues/8203)
+* **deps:** update all non-major dependencies ([#140](https://github.com/rolldown/plugins/issues/140)) ([2fe2645](https://github.com/rolldown/plugins/commit/2fe264591df0c66a4663fcac8015a77eed2f910c))
+* **deps:** update all non-major dependencies ([#142](https://github.com/rolldown/plugins/issues/142)) ([a0e8ff7](https://github.com/rolldown/plugins/commit/a0e8ff7595616d1b5b7ea9174da2f628054cba79)), references [#8203](https://github.com/rolldown/plugins/issues/8203)
+* **deps:** update all non-major dependencies ([#145](https://github.com/rolldown/plugins/issues/145)) ([a4444dc](https://github.com/rolldown/plugins/commit/a4444dceaaa3dde77e6787bb0acce936a249756f)), references [#8203](https://github.com/rolldown/plugins/issues/8203) [#x](https://github.com/rolldown/plugins/issues/x) [#8203](https://github.com/rolldown/plugins/issues/8203) [#8203](https://github.com/rolldown/plugins/issues/8203) [#8203](https://github.com/rolldown/plugins/issues/8203) [docs/api.md#optionsextendenv](https://github.com/docs/api.md/issues/optionsextendenv) [docs/api.md#optionsenv](https://github.com/docs/api.md/issues/optionsenv) [docs/api.md#optionsstdio](https://github.com/docs/api.md/issues/optionsstdio) [docs/api.md#optionsmaxbuffer](https://github.com/docs/api.md/issues/optionsmaxbuffer) [#8203](https://github.com/rolldown/plugins/issues/8203)
+* **deps:** update rolldown-related dependencies ([#147](https://github.com/rolldown/plugins/issues/147)) ([6cd4d4d](https://github.com/rolldown/plugins/commit/6cd4d4d114be3ab4286293b8ff88fe18c360a78d))
+* **deps:** update rolldown-related dependencies ([#150](https://github.com/rolldown/plugins/issues/150)) ([277a919](https://github.com/rolldown/plugins/commit/277a919f5e83c0f77a401ccc3558a070d0fde716))
+
+### Tests
+
+* exclude benchmarks from package Vitest projects ([#153](https://github.com/rolldown/plugins/issues/153)) ([9d071ad](https://github.com/rolldown/plugins/commit/9d071adb28551ecd45d61152561836ceade8d804))
+
 ## <small>[0.1.2](https://github.com/rolldown/plugins/compare/plugin-transform-imports%400.1.1...plugin-transform-imports%400.1.2) (2026-09-18)</small>
 ### Bug Fixes
 
